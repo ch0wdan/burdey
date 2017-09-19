@@ -208,7 +208,8 @@ header div#logo .logo-scroll {
 	display: none;
 }
 header div#logo h2 {
-	font-family: "Mr De Haviland";
+	font-family: 'Rouge Script', cursive;
+
 	font-size: 36px;
 	color: #fff;
 	margin-top: 16px;
@@ -1854,7 +1855,7 @@ h2 {
 	letter-spacing: normal;
 	margin-bottom: 15px;
 	font-size: 48px;
-	font-family: "Mr De Haviland";
+	font-family: 'Rouge Script', cursive;
 	font-weight: normal;
 }
 h2.deco-text span {
@@ -1936,7 +1937,7 @@ h2.subtitle {
 	margin-top: 0;
 }
 h2.name {
-	font-family: "Mr De Haviland";
+	font-family: 'Rouge Script', cursive;
 	color: #fff;
 	font-size: 120px;
 	line-height: 50px;
@@ -1988,7 +1989,7 @@ h2.deco span:after {
 	margin-left: 15px;
 }
 h2.hs1 {
-	font-family: "Mr De Haviland";
+	font-family: 'Rouge Script', cursive;
 	font-size: 40px;
 }
 h2.hs1 i {
@@ -6130,7 +6131,7 @@ a, img {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 768px
 	/* ================================================== */
 
@@ -6498,8 +6499,8 @@ a, img {
 	}
 }
 
-/* -------------------------------------------------- 
-	custom for 320px & 480px 
+/* --------------------------------------------------
+	custom for 320px & 480px
 	/* -------------------------------------------------- */
 
 @media only screen and (max-width: 767px) {
@@ -6555,7 +6556,7 @@ a, img {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 480px
 	/* -------------------------------------------------- */
 
@@ -6570,7 +6571,7 @@ a, img {
 	}
 }
 
-/* -------------------------------------------------- 
+/* --------------------------------------------------
 	design for 320px
 	/* -------------------------------------------------- */
 
