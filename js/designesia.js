@@ -5,33 +5,37 @@
 	/* --------------------------------------------------
 	 * quick settings
 	 * --------------------------------------------------*/
-	
-	/* 	set navigation color solid or transparent 
+
+	/* 	set navigation color solid or transparent
 		value: 1 - solid, 2 - transparent */
 	var opt_nav_style = 2;
-	
-	/* 	enable or disable sticky navigation 
+
+	/* 	enable or disable sticky navigation
 		value: 1 - enable , 0 - disable */
 	var opt_sticky_nav = 1;
-	
+
+	/* 	enable or disable sticky navigation on mobile
+		value: 1 - enable , 0 - disable */
+	var opt_mobile_sticky_nav = 1;
+
 	/* 	set menu separator icon
 		value: 1 - dotted, 2 - border, 3 - circle, 4 - square, 5 - plus, 6 - strip, 7 - heart, 0 - none */
 	var opt_nav_separator = 0;
-	
-	/* 	enable or disable back to top button 
+
+	/* 	enable or disable back to top button
 		value: 1 - enable , 0 - disable */
 	var opt_back_to_top = 1;
-	
-	/* 	enable or disable page transition and preloader 
+
+	/* 	enable or disable page transition and preloader
 		value: 1 - enable , 0 - disable */
 	var opt_page_trans = 1;
-	
-	/* 	custom transition for page in (please read documentation) */ 
+
+	/* 	custom transition for page in (please read documentation) */
 	var opt_page_trans_in = 'fade-in';
-	
-	/* 	custom transition for page out (please read documentation) */ 
+
+	/* 	custom transition for page out (please read documentation) */
 	var opt_page_trans_out = 'fade-out-up-sm';
-	
+
 	/* --------------------------------------------------
 	 * predefined vars
 	 * --------------------------------------------------*/
@@ -42,7 +46,7 @@
 	var $window = $(window);
 	var tmp_header_height = jQuery('header').css('height');
 	var tmp_header_top = jQuery('header').css('top');
-	
+
 	/* --------------------------------------------------
 	 * header | style
 	 * --------------------------------------------------*/
@@ -76,6 +80,9 @@
 		}
 		if (opt_sticky_nav == 0) {
 			jQuery('header').css('position', 'absolute');
+		}
+		if (opt_mobile_sticky_nav == 1) {
+			jQuery('header').addClass('header-mobile-sticky');
 		}
 	}
 	/* --------------------------------------------------
@@ -621,7 +628,7 @@
 			jQuery(this).parent().parent().find('.v-border').fadeTo(150, 0);
 			jQuery(this).parent().parent().find('.de_tab_content > div').hide();
 			var indexer = jQuery(this).index(); //gets the current index of (this) which is #nav li
-			jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').fadeTo("slow", 1); //uses whatever index the link has to open the corresponding box 
+			jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').fadeTo("slow", 1); //uses whatever index the link has to open the corresponding box
 			jQuery(this).find('.v-border').fadeTo(150, 1);
 		});
 		// request quote function
@@ -666,7 +673,7 @@
 			jQuery(this).fadeTo(150, 1);
 			jQuery(this).parent().parent().find('.de_tab_content > div').hide();
 			var indexer = jQuery(this).index(); //gets the current index of (this) which is #nav li
-			jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').show(); //uses whatever index the link has to open the corresponding box 
+			jQuery(this).parent().parent().find('.de_tab_content > div:eq(' + indexer + ')').show(); //uses whatever index the link has to open the corresponding box
 		});
 		// --------------------------------------------------
 		// toggle
@@ -1037,7 +1044,7 @@
 				jQuery('#popup-box.full-height').css('height', 'auto');
 				jQuery('#popup-box.full-height').css('position', 'absolute');
 				jQuery('#popup-box.full-height').find('.center-y').css('margin-top', '30px');
-				
+
 				if (opt_sticky_nav == 0) {
 					jQuery('header.header-mobile').css('top', '0');
 					jQuery('header.header-mobile').css('height', 'auto');
@@ -1049,7 +1056,7 @@
 				}
 			}
 		}
-		
+
 		if (opt_page_trans == 1) {
 			jQuery('body').addClass('animsition');
 			jQuery('header a').each(function() {
