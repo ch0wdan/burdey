@@ -91,9 +91,5 @@ background-size: 100% !important;
 		background-size: auto 115% !important;
 		background-attachment:scroll !important;
 	}
-	#custom-owl-slider > div > div > div:nth-child(1) > div > img {
-		position:relative;
-		left:-190%;
-	}
 
 }
