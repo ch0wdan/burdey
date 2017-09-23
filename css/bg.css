@@ -1,7 +1,7 @@
-]/* 
-/* 
+]/*
+/*
 	Section Background (bg.css)
-	
+
 	Table of Content
 	- general settings for section & subheader
 	- background settings for page subheader
@@ -75,4 +75,25 @@ background-size: 100% !important;
 	background-size: auto 100% !important;
 	background-attachment:scroll !important;
 	}
+	#section-countdown {
+		background-position-x: 85% !important;
+		-webkit-background-size: auto 200% !important;
+		-moz-background-size: auto 200% !important;
+		-o-background-size: auto 200% !important;
+		background-size: auto 200% !important;
+		background-attachment:scroll !important;
+	}
+	#section-guestbook {
+		background-position-x: 47% !important;
+		-webkit-background-size: auto 115% !important;
+		-moz-background-size: auto 115% !important;
+		-o-background-size: auto 115% !important;
+		background-size: auto 115% !important;
+		background-attachment:scroll !important;
+	}
+	#custom-owl-slider > div > div > div:nth-child(1) > div > img {
+		position:relative;
+		left:-190%;
+	}
+
 }

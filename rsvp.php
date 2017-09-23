@@ -1,6 +1,6 @@
 <?php
-$subject = 'You Got Message'; // Subject of your email
-$to = 'info@designesia.com';  //Recipient's E-mail
+$subject = 'You Got A Message on Sceather.com'; // Subject of your email
+$to = 'hi@scottruzal.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
 
 $name = $_REQUEST['name'];
