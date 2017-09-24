@@ -84,7 +84,6 @@ background-size: 100% !important;
 		background-attachment:scroll !important;
 	}
 	#section-guestbook {
-		background-position-x: 48% !important;
 		-webkit-background-size: auto 115% !important;
 		-moz-background-size: auto 115% !important;
 		-o-background-size: auto 115% !important;
