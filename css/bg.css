@@ -91,5 +91,9 @@ background-size: 100% !important;
 		background-size: auto 115% !important;
 		background-attachment:scroll !important;
 	}
+	
+	h2 {
+		font-size: 42px !important;
+	}
 
 }
