@@ -1951,6 +1951,12 @@ h2.name {
 	span.deco-big {
 		font-size: 85px !important;
 	}
+<<<<<<< HEAD
+=======
+	#big-names {
+	  margin-top: 80%;
+	}
+>>>>>>> parent of 5b7f68a... 20171107
 }
 h2.name span {
 	display: block;
