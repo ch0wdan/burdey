@@ -1951,10 +1951,6 @@ h2.name {
 	span.deco-big {
 		font-size: 85px !important;
 	}
-	#big-names {
-	  margin-top: 81%;
-	}
-}
 h2.name span {
 	display: block;
 	font-size: 32px;
