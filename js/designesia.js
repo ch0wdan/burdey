@@ -16,7 +16,7 @@
 
 	/* 	enable or disable sticky navigation on mobile
 		value: 1 - enable , 0 - disable */
-	var opt_mobile_sticky_nav = 1;
+	var opt_mobile_sticky_nav = 0;
 
 	/* 	set menu separator icon
 		value: 1 - dotted, 2 - border, 3 - circle, 4 - square, 5 - plus, 6 - strip, 7 - heart, 0 - none */
