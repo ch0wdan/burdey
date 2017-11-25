@@ -27,10 +27,273 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#55adb7">
 
+    <style>
+            html {
+          font-family: sans-serif;
+          -webkit-text-size-adjust: 100%;
+          -ms-text-size-adjust: 100%;
+        }
+
+        body {
+          margin: 0;
+        }
+
+        figure,
+        footer,
+        header,
+        nav,
+        section {
+          display: block;
+        }
+
+        a {
+          background: transparent;
+        }
+
+        h1 {
+          margin: .67em 0;
+          font-size: 2em;
+        }
+
+        img {
+          border: 0;
+        }
+
+        figure {
+          margin: 1em 40px;
+        }
+
+        * {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+
+        *:before,
+        *:after {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+
+        html {
+          font-size: 62.5%;
+        }
+
+        body {
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          line-height: 1.428571429;
+          color: #333;
+          background-color: #fff;
+        }
+
+        a {
+          color: #428bca;
+          text-decoration: none;
+        }
+
+        figure {
+          margin: 0;
+        }
+
+        img {
+          vertical-align: middle;
+        }
+
+        .img-responsive {
+          display: block;
+          max-width: 100%;
+          height: auto;
+        }
+
+        .img-rounded {
+          border-radius: 6px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+          font-family: inherit;
+          font-weight: 500;
+          line-height: 1.1;
+          color: inherit;
+        }
+
+        h1,
+        h2,
+        h3 {
+          margin-top: 20px;
+          margin-bottom: 10px;
+        }
+
+        h4 {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        h1 {
+          font-size: 36px;
+        }
+
+        h2 {
+          font-size: 30px;
+        }
+
+        h3 {
+          font-size: 24px;
+        }
+
+        h4 {
+          font-size: 18px;
+        }
+
+        p {
+          margin: 0 0 10px;
+        }
+
+        .text-left {
+          text-align: left;
+        }
+
+        .text-right {
+          text-align: right;
+        }
+
+        .text-center {
+          text-align: center;
+        }
+
+        ul {
+          margin-top: 0;
+          margin-bottom: 10px;
+        }
+
+        blockquote {
+          padding: 10px 20px;
+          margin: 0 0 20px;
+          font-size: 17.5px;
+          border-left: 5px solid #eee;
+        }
+
+        blockquote:before,
+        blockquote:after {
+          content: "";
+        }
+
+        .container {
+          padding-right: 15px;
+          padding-left: 15px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+
+        @media (min-width: 768px) {
+          .container {
+            width: 750px;
+          }
+        }
+
+        @media (min-width: 992px) {
+          .container {
+            width: 970px;
+          }
+        }
+
+        @media (min-width: 1200px) {
+          .container {
+            width: 1170px;
+          }
+        }
+
+        .row {
+          margin-right: -15px;
+          margin-left: -15px;
+        }
+
+        .col-md-2,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-8,
+        .col-md-12 {
+          position: relative;
+          min-height: 1px;
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+
+        @media (min-width: 992px) {
+          .col-md-2,
+          .col-md-4,
+          .col-md-5,
+          .col-md-6,
+          .col-md-8,
+          .col-md-12 {
+            float: left;
+          }
+
+          .col-md-12 {
+            width: 100%;
+          }
+
+          .col-md-8 {
+            width: 66.66666666666666%;
+          }
+
+          .col-md-6 {
+            width: 50%;
+          }
+
+          .col-md-5 {
+            width: 41.66666666666667%;
+          }
+
+          .col-md-4 {
+            width: 33.33333333333333%;
+          }
+
+          .col-md-2 {
+            width: 16.666666666666664%;
+          }
+
+          .col-md-offset-5 {
+            margin-left: 41.66666666666667%;
+          }
+
+          .col-md-offset-2 {
+            margin-left: 16.666666666666664%;
+          }
+
+          .col-md-offset-1 {
+            margin-left: 8.333333333333332%;
+          }
+        }
+
+        .clearfix:before,
+        .clearfix:after,
+        .container:before,
+        .container:after,
+        .row:before,
+        .row:after {
+          display: table;
+          content: " ";
+        }
+
+        .clearfix:after,
+        .container:after,
+        .row:after {
+          clear: both;
+        }
+
+        @-ms-viewport {
+          width: device-width;
+        }
+    </style>
 
     <!-- CSS Files
     ================================================== -->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/animate.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
@@ -1087,6 +1350,23 @@
       <audio loop="loop" autoplay="autoplay">
       <source src="music/Feels Like a Wedding Day.mp3" type="audio/mpeg" />
       </audio> -->
+
+      <noscript id="deferred-styles">
+           <link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+         </noscript>
+         <script>
+           var loadDeferredStyles = function() {
+             var addStylesNode = document.getElementById("deferred-styles");
+             var replacement = document.createElement("div");
+             replacement.innerHTML = addStylesNode.textContent;
+             document.body.appendChild(replacement)
+             addStylesNode.parentElement.removeChild(addStylesNode);
+           };
+           var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+               webkitRequestAnimationFrame || msRequestAnimationFrame;
+           if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+           else window.addEventListener('load', loadDeferredStyles);
+         </script>
 
     <!-- Javascript Files
     ================================================== -->
