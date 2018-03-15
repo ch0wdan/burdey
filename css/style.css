@@ -6628,3 +6628,10 @@ a, img {
 		width: 100% !important;
 	}
 }
+
+/* Registry Touch-ups */
+
+a.btn.btn-black {
+	background-color: #55adb7 !important;
+    border-color: #55adb7 !important;
+}
