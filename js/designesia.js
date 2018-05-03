@@ -1067,8 +1067,8 @@
 			$(".animsition").animsition({
 				inClass: opt_page_trans_in,
 				outClass: opt_page_trans_out,
-				inDuration: 1500,
-				outDuration: 800,
+				inDuration: 400,
+				outDuration: 400,
 				linkElement: '.animsition-link',
 				// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
 				loading: true,
