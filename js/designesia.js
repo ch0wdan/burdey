@@ -1067,8 +1067,8 @@
 			$(".animsition").animsition({
 				inClass: opt_page_trans_in,
 				outClass: opt_page_trans_out,
-				inDuration: 400,
-				outDuration: 400,
+				inDuration: 1500,
+				outDuration: 800,
 				linkElement: '.animsition-link',
 				// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
 				loading: true,
@@ -1076,13 +1076,8 @@
 				loadingClass: 'animsition-loading',
 				loadingInner: '', // e.g '<img src="loading.svg" />'
 				timeout: false,
-<<<<<<< HEAD
-				timeoutCountdown: 3000,
-				onLoadEvent: false,
-=======
 				timeoutCountdown: 5000,
 				onLoadEvent: true,
->>>>>>> parent of c24eca1... 20180503
 				browser: ['animation-duration', '-webkit-animation-duration'],
 				// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
 				// The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
