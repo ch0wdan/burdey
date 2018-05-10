@@ -6635,3 +6635,10 @@ a.btn.btn-black {
 	background-color: #55adb7 !important;
     border-color: #55adb7 !important;
 }
+
+/* Overlay Fix */
+
+.overlay-v {
+	text-align: center !important;
+	right: 0px;
+}
