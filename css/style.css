@@ -4664,11 +4664,9 @@ section .color-overlay {
 .circle {
 	background: #333;
 	display: inline-block;
-	padding: 20px;
-	padding-top: 22px;
+	padding-top: 17px;
 	font-size: 30px;
 	color: #fff;
-	margin-top: 140px;
 	width: 70px;
 	height: 70px;
 	border-radius: 60px;
