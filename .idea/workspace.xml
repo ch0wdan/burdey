@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb1b938-78a4-47d7-a1b3-616a72f0021c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slider/2-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/slider/2-mobile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slider/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/slider/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slider/3-mobile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/slider/3-mobile.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slider/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/slider/3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/countdown-custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/countdown-custom.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="1804" column="94" selection-start-line="1804" selection-start-column="89" selection-end-line="1804" selection-end-column="94" />
+            <state relative-caret-position="-60">
+              <caret line="1860" selection-start-line="1860" selection-end-line="1860" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNAME">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -36,6 +51,7 @@
       <find>col-md-offset-2</find>
       <find>section-countdown</find>
       <find>countdown</find>
+      <find>wedding details</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -44,10 +60,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CNAME" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/countdown-custom.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/CNAME" />
       </list>
     </option>
   </component>
@@ -127,17 +143,18 @@
       <option name="presentableId" value="Default" />
       <updated>1549143777698</updated>
       <workItem from="1549143780279" duration="2798000" />
-      <workItem from="1549730964118" duration="1130000" />
+      <workItem from="1549730964118" duration="2917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3928000" />
+    <option name="totallyTimeSpent" value="5715000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="43" width="1400" height="837" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -149,7 +166,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -178,7 +195,6 @@
     <entry file="file://$PROJECT_DIR$/images/story/2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNAME" />
     <entry file="file://$PROJECT_DIR$/css/jquery.countdown.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -255,8 +271,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="1804" column="94" selection-start-line="1804" selection-start-column="89" selection-end-line="1804" selection-end-column="94" />
+        <state relative-caret-position="-60">
+          <caret line="1860" selection-start-line="1860" selection-end-line="1860" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
