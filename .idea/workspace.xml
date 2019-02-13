@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb1b938-78a4-47d7-a1b3-616a72f0021c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/bg.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/background/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/misc/afterparty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/misc/ceremony_space.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/misc/heather.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/misc/og-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/misc/perona-farms.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/misc/reception_space.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/misc/scott.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,10 +26,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="1729" column="118" lean-forward="true" selection-start-line="1729" selection-start-column="118" selection-end-line="1729" selection-end-column="118" />
+            <state relative-caret-position="202">
+              <caret line="1795" column="143" selection-start-line="1795" selection-start-column="143" selection-end-line="1795" selection-end-column="143" />
               <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,10 +60,15 @@
       <find>section-countdown</find>
       <find>countdown</find>
       <find>wedding details</find>
-      <find>scott</find>
       <find>view on</find>
       <find>de Geus</find>
       <find>background</find>
+      <find>RSVP</find>
+      <find>Jordan</find>
+      <find>ceremony</find>
+      <find>burstein</find>
+      <find>scott</find>
+      <find>let us</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -63,8 +80,8 @@
         <option value="$PROJECT_DIR$/js/countdown-custom.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/CNAME" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/bg.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -137,12 +154,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549143777698</updated>
       <workItem from="1549143780279" duration="2798000" />
-      <workItem from="1549730964118" duration="8608000" />
+      <workItem from="1549730964118" duration="9983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11406000" />
+    <option name="totallyTimeSpent" value="12781000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="43" width="1400" height="837" extended-state="0" />
@@ -279,10 +296,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="1729" column="118" lean-forward="true" selection-start-line="1729" selection-start-column="118" selection-end-line="1729" selection-end-column="118" />
+        <state relative-caret-position="202">
+          <caret line="1795" column="143" selection-start-line="1795" selection-start-column="143" selection-end-line="1795" selection-end-column="143" />
           <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#section#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
